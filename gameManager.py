@@ -14,7 +14,7 @@ class GameManager :
 		self.game_launched = True
 		self.sceneManager = SceneManager()
 		self.clock = None
-		self.scale = 3  #12
+		self.scale = 13
 		pygame.display.set_caption('RayMarching')
 	
 	def event(self) :
